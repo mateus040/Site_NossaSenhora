@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Nossa Senhora</title>
 </head>
@@ -43,54 +44,30 @@
         </div>
     </header>
 
-    <div class="slider">
-        <div class="slides">
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">  
-            <input type="radio" name="radio-btn" id="radio3">  
-            <input type="radio" name="radio-btn" id="radio4">  
-
-
-
-            <div class="slide first">
-                <img src="img/img1.jpg" alt="imagem1">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/img1.jpg" class="d-block w-100" alt="...">
             </div>
-            
-            <div class="slide first">
-                <img src="img/img2.jpeg" alt="imagem2">
+            <div class="carousel-item">
+                <img src="img/img5.jpg" class="d-block w-100" alt="...">
             </div>
-
-            <div class="slide first">
-                <img src="img/img3.jpg" alt="imagem3">
+            <div class="carousel-item">
+                <img src="img/img4.png  " class="d-block w-100" alt="...">
             </div>
-
-            <div class="slide first">
-                <img src="img/img4.png" alt="imagem4">
-            </div>
-
-
-
-
-            <div class="navigation-auto">
-                <div class="atuo-btn1"></div>
-                <div class="atuo-btn2"></div>
-                <div class="atuo-btn3"></div>
-                <div class="atuo-btn4"></div>
-            </div>
-
         </div>
-
-        <div class="manual-navigation">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-        </div>
-
-
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
     
 </body>
 </html>
