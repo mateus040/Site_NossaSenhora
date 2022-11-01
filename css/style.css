@@ -7,15 +7,19 @@
 }
 
 header {
-    background-color: #00BFFF;
+    background: #0370BB;
+    background: -moz-linear-gradient(left, #0370BB 0%, #0678DF 53%, #078AFF 100%);
+    background: -webkit-linear-gradient(left, #0370BB 0%, #0678DF 53%, #078AFF 100%);
+    background: linear-gradient(to right, #0370BB 0%, #0678DF 53%, #078AFF 100%);
     box-shadow: 0px 3px 10px #63B8FF;
-    border-bottom: 10px solid white;
+    border-bottom: 10px solid #E0FFFF;
+    position: relative;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 6rem;
+    padding: 1.2rem 6rem; /* Tamanho da NavBar */
 }
 
 .logo {
@@ -41,9 +45,13 @@ header {
 }
 
 .nav-list a{
-    color: black;
+    color: #fff;
     height: 20px;
     
+}
+
+.nav-list a:hover{
+    color: black;
 }
 
 .nav-item {
@@ -55,7 +63,10 @@ header {
     font-size: 1.15rem;
     color: #fff;
     font-weight: 400;
+    float: left;
+    position: relative;
 }
+
 
 /*.login-button h1{
     border: none;
