@@ -18,8 +18,8 @@
             <div class="nav-list">
                 <ul>
                     <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Histórias</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
                 </ul>
             </div>
 
